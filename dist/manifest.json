@@ -1,11 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "Base Chrome Extension",
-    "description": "Base Chrome Extension with Grunt, Babel, Browserify, Yarn, and Node configurations.",
+    "name": "Anime Image Collection",
+    "description": "アニメを見ている時にそのまま画像も保存したい。そんな時に役立つ拡張",
     "version": "1.0",
     "permissions": [
         "declarativeContent",
         "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["http://ch.nicovideo.jp/portal/anime/*"],
+            "js": ["js/jquery.min.js", "js/jquery.sidebar.js", "js/jquery.sidebar.min.js", "js/script.js"],
+            "css": ["css/style.css"],
+            "run_at": "document_end"
+        }
     ],
     "browser_action": {},
     "incognito": "split",

@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:davidmerrick/base-chrome-extension.git"
+    "url": "git@github.com:SuguruOoki/anime-image-collection.git"
   },
-  "author": "David Merrick",
+  "author": "SuguruOoki, NomiRyusei",
   "license": "ISC",
   "homepage": "https://github.com/davidmerrick/base-chrome-extension",
   "devDependencies": {
