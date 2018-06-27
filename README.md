@@ -1,6 +1,6 @@
-Base Chrome Extension with Webpack, Babel, Yarn, and Node configurations.
-
-The extension source lives in the "src" folder. Grunt is set up to build "src/app/Background.js" into a bundle in the "dist/js" folder.
+# 概要
+新卒によるハッカソンで作成。
+Baseのchrome拡張から作成。
 
 ## Installation
 
