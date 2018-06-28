@@ -20,6 +20,7 @@
     "webpack": "^3.0.0"
   },
   "dependencies": {
+    "require": "^2.4.20",
     "twitter": "^1.7.1"
   }
 }
