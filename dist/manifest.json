@@ -10,7 +10,7 @@
     "content_scripts": [
         {
             "matches": ["http://ch.nicovideo.jp/portal/anime/*"],
-            "js": ["js/jquery.min.js", "js/jquery.sidebar.js", "js/jquery.sidebar.min.js", "js/script.js"],
+            "js": ["js/jquery.min.js", "js/script.js"],
             "css": ["css/style.css"],
             "run_at": "document_end"
         }
