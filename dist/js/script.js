@@ -21,17 +21,4 @@ $.ajax({
       alert('サーバとの接続に失敗しました');
   });
 
-// $('.twitter-images').css({
-//     'float': 'right',
-//     'margin-right': '50px'
-// });
-
-// $('head').prepend('<script type="text/javascript">$(".button-top").click(function() {$(".twitter-image").animate({ "position": "-400px" }, 1000);})</script>');
 $('head').prepend('<script type="text/javascript">$(".button-top").on(\'click\', function(){alert("実行");});</script>');
-// $(".button-top").click(function() {
-//     $(".twitter-image").animate({ "position": "-400px" }, 1000);
-// });
-
-// $(".button-top").on('click', function(){alert("実行");});
-
-// $('#body_main_inner').html("<script src=\"js/heightSlide.js\"></script>");
